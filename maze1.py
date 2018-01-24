@@ -4,7 +4,7 @@ screen = turtle.Screen()
 screen.bgcolor("black")
 screen.title("Maze game for stroke rehab")
 screen.setup(700,700)
-
+turtle.tracer(0)
 class Pen(turtle.Turtle):
     def __init__(self):
         turtle.Turtle.__init__(self)
@@ -83,11 +83,11 @@ level_1 = [
 "WP WWWWWWW          WWWWW",
 "W  WWWWWWW  WWWWWW  WWWWW",
 "W       WW  WWWWWW  WWWWW",
-"W       WW  WWW        WW",
+"W       WW  WWW       TWW",
 "WWWWWW  WW  WWW        WW",
 "WWWWWW  WW  WWWWWW  WWWWW",
 "WWWWWW  WW    WWWW  WWWWW",
-"W  WWW        WWWW  WWWWW",
+"W TWWW        WWWW  WWWWW",
 "W  WWW  WWWWWWWWWWWWWWWWW",
 "W         WWWWWWWWWWWWWWW",
 "W                WWWWWWWW",
@@ -97,7 +97,7 @@ level_1 = [
 "WWW                     W",
 "WWW         WWWWWWWWWWWWW",
 "WWWWWWWWWW  WWWWWWWWWWWWW",
-"WWWWWWWWWW              W",
+"WWWWWWWWWW             TW",
 "WWT WWWWWW              W",
 "WW  WWWWWWWWWWWWWW  WWWWW",
 "WW   WWWWWWWWWWWWW  WWWWW",
